@@ -1,0 +1,17 @@
+.newsfeed {
+    border: 1px solid orange;
+    flex: 0.7;
+    color: white;
+}
+
+.newsfeed__port{
+    text-align: left;
+}
+
+.newsfeed__port h1{
+    margin: 0;
+}
+
+.newsfeed__port p{
+    margin-top: 0;
+}
