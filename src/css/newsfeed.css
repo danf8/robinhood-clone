@@ -4,6 +4,11 @@
     color: white;
 }
 
+.newsfeed__chartSection{
+    display: flex;
+    flex-direction: column;
+}
+
 .newsfeed__port{
     text-align: left;
 }
@@ -16,6 +21,7 @@
     margin-top: 0;
 }
 
-/* .newsfeed__chart{
-    position: relative;
-} */
+.newsfeed__chart{
+   width: 100%;
+}
+
