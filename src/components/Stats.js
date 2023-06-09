@@ -5,7 +5,7 @@ import { db } from '../firebase';
 import { collection, getDocs, query, where } from 'firebase/firestore';
 
 const Stats = () => {
-    const token = ""
+    const token = "&token=chn4n1pr01qsjpubcsn0chn4n1pr01qsjpubcsng"
     const url = `https://finnhub.io/api/v1/quote?symbol=`
     const[stockData, setStockData] = useState([]);
     const [myStocks, setMyStocks] = useState([]);

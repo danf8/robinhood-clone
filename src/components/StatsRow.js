@@ -1,9 +1,24 @@
 import '../css/statsrow.css'
-
+import { db } from '../firebase'
+import { QuerySnapshot, collection } from 'firebase/firestore'
+// import { collection} from 'firebase/firestore'
 const StatsRow = (props) => {
+
+  const buyStock = () => {
+    console.log('buy')
+  //   db.collection('myStocks')
+  //   .where('ticker', '===', props.name)
+  //   .get()
+  //   .then(() => {
+  //     QuerySnapshot.forEach(function(doc) {
+  //       console.log(doc.id, " => ", doc.data())
+  //     })
+  //   })
+  }
+
     const percentage = ((props.price - props.openPrice)/props.openPrice) * 100;
     return(
-        <div className="row" >
+        <div className="row"  onClick={buyStock}>
       <div className="row__intro">
         <h1>{props?.name}</h1>
         <p>200 shares</p>

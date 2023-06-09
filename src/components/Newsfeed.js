@@ -14,7 +14,6 @@ const Newsfeed = () => {
         "Healthcare Supplies",
         "Index ETFs",
         "Technology",
-        "China",
         "Pharma",
       ]);
 
@@ -47,8 +46,9 @@ const Newsfeed = () => {
                         <p>Show More</p>
                     </div>
                     <div className="newsfeed_popularlists_badges">
-                        {popularTopics.map((topic) => (
+                        {popularTopics.map((topic, i) => (
                             <Chip 
+                                key={i}
                                 className="topic__bade"
                                 variant="outlinded"
                                 label={topic}
