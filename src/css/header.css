@@ -3,11 +3,13 @@
     align-items: center;
     justify-content: space-between;
     height: 64px;
-    color: white;
+    color: black;
+    /* color: white; */
 }
 
 .logo_head {
     margin-left: 48px;
+    /* background-color: black; */
 }
 
 .head__search{
@@ -30,7 +32,8 @@
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
-    color: white;
+    /* color: white; */
+    color: black;
 }
 
 .header__searchContainer  > input:focus{
@@ -43,7 +46,8 @@
 }
 
 .header__menuItem > a{
-    color: white;
+    /* color: white; */
+    color: black;
     font-weight: bold;
     text-decoration: none;
     padding: 0 10px;

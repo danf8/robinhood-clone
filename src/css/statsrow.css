@@ -33,5 +33,6 @@
 }
 
 .row:hover {
-    background-color: #31363a;
+    /* background-color: #31363a; */
+    background-color: #b2c7a7;
 }
