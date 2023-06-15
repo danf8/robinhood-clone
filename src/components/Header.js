@@ -1,12 +1,13 @@
 // import {GiRobinHoodHat} from 'react-icons/gi'
 import Logo from '../robinhood-logo.svg'
+// import {Link} from 'react-router-dom'
 import '../css/header.css';
 const Header = () => {
     return(
         <div className="header__wrap">
             <div className="logo_head">
                 {/* <GiRobinHoodHat/> */}
-                <img src={Logo} width={25} />
+                <img src={Logo} width={25} alt='robinhood' />
             </div>
             <div className="head__search">
                 <div className='header__searchContainer'>

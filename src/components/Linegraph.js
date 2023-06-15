@@ -54,6 +54,7 @@ const Linegraph = () => {
         },
         scales: {
                 x: {
+                    display: false,
                     ticks: {
                       display: false,
                     },
